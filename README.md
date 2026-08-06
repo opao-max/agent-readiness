@@ -161,3 +161,8 @@ npm run bundle    # → ../agent-readiness/bin/agent-readiness.mjs
 ```
 
 See [`cli/README.md`](cli/README.md) for details.
+
+## Checks
+
+The readiness probe performs a series of environment checks (toolchain versions, config presence, network reachability) and emits a machine-readable JSON result for downstream automation. See cli/README.md for the full check list.
+
